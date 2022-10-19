@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Editor: React.FC = () => {
+const PDFTo: React.FC = () => {
   return (
     <div>
         <div></div>
@@ -8,4 +8,4 @@ const Editor: React.FC = () => {
   )
 }
 
-export default Editor
+export default PDFTo

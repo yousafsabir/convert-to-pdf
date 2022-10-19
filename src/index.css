@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Home Page */
+
 .home-content-container::before {
     content: "";
     display: block;
@@ -9,13 +11,13 @@
     z-index: 10;
     left: 0;
     top: 0;
-    width: 99%;
-    height: 99%;
+    width: 100%;
+    height: 100%;
     border-radius: 1rem;
     background: linear-gradient(to right bottom, #72c6ef, #004e8f);
     background-attachment: scroll;
-    transform: rotate(4deg);
-    transform-origin: 40% 70%;
+    transform: rotate(6deg);
+    transform-origin: 45% 90%;
     box-shadow: inset 0 1px 1px 0 hsla(0, 0%, 100%, 0.15),
         0 50px 100px -20px rgba(50, 50, 93, 0.3),
         0 30px 60px -30px rgba(0, 0, 0, 0.5),

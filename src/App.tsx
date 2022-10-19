@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Convert from "./pages/Convert";
-import Editor from "./pages/Editor";
+import PDFTo from "./pages/PDFTo";
+import ToPDF from "./pages/ToPDF";
 
 function App() {
     return (
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/convert" element={<Convert />} />
-                <Route path="/editor" element={<Editor />} />
+                <Route path="/pdfo" element={<PDFTo />} />
+                <Route path="/topdf" element={<ToPDF />} />
             </Routes>
         </Router>
     );
