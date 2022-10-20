@@ -30,6 +30,7 @@ const ToPDF: React.FC = () => {
 
     pdf.addImage(imageDataURL, 0, 0, pdf.internal.pageSize.getWidth(), pdf.internal.pageSize.getHeight());
     pdf.save(filename + ".pdf")
+    return
   }
 
   function getFileName(file: File): string {
